@@ -36,7 +36,7 @@ function Home() {
                 "button button--primary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("docs/getting-started/introduction")}
+              to={useBaseUrl("docs/category/basics---5-minutes")}
             >
               Get Started&nbsp;&nbsp;→
             </Link>

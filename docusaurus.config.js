@@ -29,7 +29,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'it'],
   },
 
   presets: [
@@ -55,8 +55,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/unguess-social-card.jpg',
+      colorMode: {
+        disableSwitch: false,
+        respectPrefersColorScheme: false
+      },
       navbar: {
         title: 'UNGUESS',
         logo: {
