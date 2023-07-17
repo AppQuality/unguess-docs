@@ -25,7 +25,7 @@ function Home() {
       <header className={clsx("hero", styles.heroBanner)}>
         <div className="container">
           <img
-            className={clsx(styles.heroBannerLogo, "margin-vert--md")}
+            className={clsx(styles.heroBannerLogo, "margin-vert--md", "brandLogo")}
             src={useBaseUrl("img/logo.svg")}
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
