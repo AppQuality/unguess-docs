@@ -27,9 +27,4 @@
   --ifm-color-primary-lighter: #95c2b9;
   --ifm-color-primary-lightest: #d5e6e3;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.4);
-
-  .navbar__logo,
-  .brandLogo {
-    content: url(../../static/img/logo-dark.svg)
-  }
 }

@@ -55,7 +55,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/unguess-social-card.jpg',
+      image: 'img/unguess-social-card.png',
       colorMode: {
         disableSwitch: false,
         respectPrefersColorScheme: false
@@ -65,6 +65,7 @@ const config = {
         logo: {
           alt: 'UNGUESS Logo',
           src: 'img/logo.svg',
+          srcDark: 'img/logo-dark.svg',
         },
         items: [
           {

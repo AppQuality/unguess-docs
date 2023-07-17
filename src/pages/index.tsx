@@ -11,6 +11,7 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
+import ThemedImage from "@theme/ThemedImage";
 import styles from "./index.module.css";
 
 function Home() {
@@ -24,9 +25,13 @@ function Home() {
     >
       <header className={clsx("hero", styles.heroBanner)}>
         <div className="container">
-          <img
-            className={clsx(styles.heroBannerLogo, "margin-vert--md", "brandLogo")}
-            src={useBaseUrl("img/logo.svg")}
+          <ThemedImage
+            alt={"Unguess Logo"}
+            className={clsx(styles.heroBannerLogo, "margin-vert--md")}
+            sources={{
+              light: useBaseUrl("/img/logo.svg"),
+              dark: useBaseUrl("/img/logo-dark.svg"),
+            }}
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -50,7 +55,8 @@ function Home() {
               <div className="col col--8 col--offset-2">
                 <div className="margin-vert--lg text--center">
                   <h2 className={styles.sectionDarkTitle}>
-                    Unguess is ready to announce that Filippo+Filippo is now a...{" "}
+                    Unguess is ready to announce that Filippo+Filippo is now
+                    a...{" "}
                     <a
                       className={styles.sectionDarkLink}
                       href="https://unguess.io"
@@ -74,7 +80,11 @@ function Home() {
                   <div className="col">
                     <h3>Theming</h3>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt, soluta distinctio architecto quaerat, doloribus voluptatum impedit, eaque rem sed aspernatur repellat natus hic quisquam voluptatem assumenda pariatur iure consectetur?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Expedita sunt, soluta distinctio architecto quaerat,
+                      doloribus voluptatum impedit, eaque rem sed aspernatur
+                      repellat natus hic quisquam voluptatem assumenda pariatur
+                      iure consectetur?
                     </p>
                   </div>
                   <div className="col">
