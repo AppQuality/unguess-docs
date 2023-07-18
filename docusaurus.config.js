@@ -30,6 +30,14 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'it'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      it: {
+        label: 'Italiano',
+      },
+    }, 
   },
 
   presets: [
@@ -39,6 +47,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -69,10 +78,7 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs',
+            type: 'localeDropdown',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
