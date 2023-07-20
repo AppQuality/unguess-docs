@@ -15,7 +15,7 @@ Click the "Fork" button at the top right corner of this repository to create you
 Clone the forked repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/docs.git
+git clone https://github.com/your-username/unguess-docs.git
 ```
 Replace your-username with your GitHub username.
 
