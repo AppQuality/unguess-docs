@@ -17,16 +17,19 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   /** alert cards */
-  /* --ifm-color-info-contrast-foreground: #f209db; */
+  --ifm-color-info-contrast-foreground: #1466A9;
   --ifm-color-info-contrast-background: #E3F2F9;
   --ifm-color-info-dark: #1466A9;
 
+  --ifm-color-info-contrast-foreground: #C57F12;
   --ifm-color-warning-contrast-background: #FFF7EE;
   --ifm-color-warning-dark: #C57F12;
 
+  --ifm-color-info-contrast-foreground: #D22F37;
   --ifm-color-danger-contrast-background: #FBEAEB;
   --ifm-color-danger-dark: #D22F37;
 
+  --ifm-color-info-contrast-foreground: #007D5A;
   --ifm-color-success-contrast-background: #B3E8D9;
   --ifm-color-success-dark: #007D5A;
 
