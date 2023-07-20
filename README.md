@@ -23,8 +23,7 @@ Replace your-username with your GitHub username.
 Make sure you have Node.js and Yarn installed on your machine. Then, navigate to the cloned repository and install the necessary dependencies:
 
 ```bash
-cd docs
-yarn install
+yarn 
 ```
 ### Make Changes
 Edit, add, or remove documentation articles as needed. The documentation is written using Markdown, so you can use any text editor to make changes.
