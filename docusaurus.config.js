@@ -36,7 +36,7 @@ const config = {
       },
       it: {
         label: 'Italiano',
-      },
+      }
     }, 
   },
 
@@ -70,69 +70,25 @@ const config = {
         respectPrefersColorScheme: false
       },
       navbar: {
-        title: 'UNGUESS',
+        title: '',
         logo: {
           alt: 'UNGUESS Logo',
-          src: 'img/logo.svg',
-          srcDark: 'img/logo-dark.svg',
+          src: 'img/unguess.svg',
+          srcDark: 'img/unguess-dark.svg',
         },
         items: [
           {
             type: 'localeDropdown',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/AppQuality/unguess-docs',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/AppQuality/unguess-docs',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
-      footer: {
-        // style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/facebook/docusaurus',
-        //       },
-        //     ],
-        //   },
-        // ],
-        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+      footer: {},
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

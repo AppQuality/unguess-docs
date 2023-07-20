@@ -15,11 +15,36 @@
   --ifm-color-primary-lightest: #ABEBDF;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /** alert cards */
+  /* --ifm-color-info-contrast-foreground: #f209db; */
+  --ifm-color-info-contrast-background: #E3F2F9;
+  --ifm-color-info-dark: #1466A9;
+
+  --ifm-color-warning-contrast-background: #FFF7EE;
+  --ifm-color-warning-dark: #C57F12;
+
+  --ifm-color-danger-contrast-background: #FBEAEB;
+  --ifm-color-danger-dark: #D22F37;
+
+  --ifm-color-success-contrast-background: #B3E8D9;
+  --ifm-color-success-dark: #007D5A;
+
+  --ifm-heading-color: #2f3941;
+
+  .menu__link {
+    font-weight: var(--ifm-font-weight-base);
+  }
+
+  .menu__link--active
+  {
+    font-weight: var(--ifm-font-weight-bold);
+  }
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #277768;
+  --ifm-color-primary: #e1eeec;
   --ifm-color-primary-dark: #206E6A;
   --ifm-color-primary-darker: #0C4D5E;
   --ifm-color-primary-darkest: #0C4D5E;
@@ -27,4 +52,9 @@
   --ifm-color-primary-lighter: #95c2b9;
   --ifm-color-primary-lightest: #d5e6e3;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.4);
+  --ifm-heading-color: inherit;
+
+  .pagination-nav__sublabel {
+    font-weight:var(--ifm-font-weight-base);
+  }
 }
