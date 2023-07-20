@@ -2,10 +2,10 @@
 sidebar_position: 3
 title: Bug types
 ---
-## Recognize types, their severity and replicability
+## Recognize types, their severity, and replicability
 
 :::info
-It's important to understand how to recognize different types of bugs, their severity and replicability
+It's important to understand how to recognize different types of bugs, their severity, and replicability
 :::
 
 The term *bug* identifies an error that alters the correct functioning of a piece of software by producing, for example, an unexpected or incorrect result. One of the fundamental characteristics of a good reporter is the ability to detect bugs and find a way to reproduce them. In order to do this, first of all, it is necessary to know how to recognize the various **types** of bugs and their relative **severity**, as these two parameters are deeply connected.
