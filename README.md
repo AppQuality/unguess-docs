@@ -1,41 +1,60 @@
-# Website
+# Unguess Docs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Welcome to the documentation repository for Unguess Docs. This repository contains the documentation for Unguess Docs, and we encourage and welcome contributions from the community.
 
-### Installation
+## Contributing to the Documentation
 
+If you want to contribute to the documentation and make improvements or add new articles, follow these steps:
+
+### 1. Fork the Repository
+
+Click the "Fork" button at the top right corner of this repository to create your own fork. This will allow you to make changes without affecting the original repository directly.
+
+### 2. Clone Your Fork
+
+Clone the forked repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/your-username/docs.git
 ```
-$ yarn
+Replace your-username with your GitHub username.
+
+### Install Dependencies
+Make sure you have Node.js and Yarn installed on your machine. Then, navigate to the cloned repository and install the necessary dependencies:
+
+```bash
+cd docs
+yarn install
+```
+### Make Changes
+Edit, add, or remove documentation articles as needed. The documentation is written using Markdown, so you can use any text editor to make changes.
+
+### Preview Your Changes
+To preview your changes locally, run the following command:
+
+```bash
+yarn start
+```
+This will start a development server, and you can view the documentation by visiting http://localhost:3000 in your web browser.
+
+### Commit and Push
+Once you are satisfied with your changes, commit them and push to your forked repository:
+
+```bash
+git add .
+git commit -m "Your descriptive commit message"
+git push origin main
 ```
 
-### Local Development
+### Create a Pull Request
+Go to your forked repository on GitHub and click the "New pull request" button. This will open a new pull request against the original repository. Provide a descriptive title and description for your changes.
 
-```
-$ yarn start
-```
+### Review and Merge
+After submitting your pull request, the maintainers of the original repository will review your changes. If everything looks good, they will merge your changes into the main documentation.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Reporting Issues
+If you encounter any issues with the documentation or have suggestions for improvements, please open an issue on this repository.
 
-### Build
+### License
+The documentation is licensed under [License Name]. By contributing to this repository, you agree to license your contributions under the same license.
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
