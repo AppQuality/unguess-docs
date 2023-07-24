@@ -3,7 +3,7 @@
 sidebar-position: 2
 ---
 
-# Bug reporting rules
+# Regole di scrittura dei Bug
 
 Refer to the rules shown in this article any time you have to fill in the different fields of a bug reporting form; in this way, your bugs will be approved faster and with less supplementary requests, you will also earn more experience points.
 
