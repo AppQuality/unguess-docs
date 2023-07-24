@@ -2,86 +2,82 @@
 sidebar-position: 2
 ---
 
-# Bug reporting rules
+# Regole di compilazione dei bug
 
-Refer to the rules shown in this article any time you have to fill in the different fields of a bug reporting form; in this way, your bugs will be approved faster and with less supplementary requests, you will also earn more experience points.
+Fai riferimento alle regole riportate in questo articolo ogni qual volta tu debba riempire i vari campi previsti nel form di segnalazione di un bug; in questo modo, i tuoi bug verranno approvati più velocemente e con meno richieste integrative, inoltre riceverai più punti esperienza.
 
-Bugs considered to be too concise or showing writing errors, or which don’t respect these rules might be directly refused: each bug must always be written in order to be understood without viewing the attachments.
+Ogni bug deve essere sempre scritto in modo da poter essere compreso senza visualizzarne gli allegati.
 
-### Bug title
-The title must show the section or the process where the problem occurs written in square brackets (not the name or the number of the use case), followed by a brief and understandable overview of the problem, so that it can be clearly understood and identified.
+### Titolo del bug
 
-:::danger Bad title
+Il titolo deve presentare la sezione o il processo in cui il problema si verifica inscritto tra parentesi quadre (non il nome o il numero dello use case), seguito da un riassunto breve e comprensibile del problema, in modo che possa essere compreso e distinto chiaramente.
 
-[Home] – Error
+:::danger Titolo scorretto
 
-:::
+[USE CASE 1] – L’accesso non funziona
 
-:::tip Good title
-
-[Login] – Impossible to access by using the correct credentials
+[Home] – Errore
 
 :::
 
-### Step-by-step description
-The bug description must show a bulleted list of the actions to carry out to replicate the process that brought you to the problem. Every single step must be clearly reported in one line (preceded by its number), in order to identify the user behaviour on the product (e.g. tap, click, back on the smartphone or on the browser) and other choices made or the buttons clicked (the names of the sections or of the buttons must be written in quotation marks). Furthermore, any possible precondition must be made explicit in the first points.
-Attention: the last step should not be the description of the Bug. This should be described in the “Actual result” field.
+:::tip Titolo corretto
 
-:::danger Bad description
- - Open the App;
- - Click on Login;
- - Loading.
+[Login] – Impossibile effettuare l’accesso usando credenziali
+
 :::
 
-:::tip Good description
- - Open the newly installed app and land on the login page;
- - Fill in the fields with a correct credential;
- - Click on the “Login” button.
+### Descrizione step-by-step
+La descrizione del bug deve presentare un elenco puntato di azioni da effettuare per poter replicare il percorso che ha portato al problema. Ogni singolo passaggio deve essere riportato in un passo (preceduto dal suo numero) in modo chiaro, identificando univocamente il comportamento dell’utente sul prodotto (ad es. tap, click, indietro sullo smartphone o sul browser) e le scelte effettuate o i tasti cliccati (i nomi delle sezioni o dei bottoni devono essere scritti tra virgolette). Inoltre, eventuali precondizioni vanno esplicitate sempre nei primi punti.
+Attenzione: l’ultimo step non deve essere la descrizione del Bug. Questa va descritta nel campo “Actual result”.
+
+:::danger Descrizione scorretta
+1. Aprire l’App;
+2. Click su Login;
+- Caricamento.
 :::
 
-### Expected result 
-The expected result must exclusively describe the expected behaviour of the digital product, which did not occur, always referring to the context where the bug appeared.
+:::tip Descrizione corretta
+1. Aprire l’app appena installata e atterrare sulla pagina di login;
+2. Compilare i campi con una credenziale corretta;
+3. Cliccare sul bottone “Effettua l’accesso”.
+:::
 
-:::danger Bad Expected result
+### Risultato previsto
+Il risultato atteso deve descrivere esclusivamente quello che sarebbe dovuto essere il comportamento del prodotto digitale, che invece non si è realizzato, riferendosi sempre al contesto in cui il bug si è verificato.
+
+:::danger Risultato atteso scorretto
 Login.
 :::
 
-:::tip Good Expected result
-The user is supposed to view the area reserved to the users who logged in.
+:::tip Risultato atteso corretto
+L’utente dovrebbe visualizzare l’area riservata agli utenti che hanno effettuato il login.
 :::
 
 
-### Actual result
-The actual result describes the product behaviour in a comprehensive manner, with reference to the bug which occurred within its replicability context.
+### Risultato ottenuto
+Il risultato effettivo descrive in modo completo il comportamento del prodotto in riferimento al bug che si è verificato all’interno del suo contesto di riproducibilità. Eventuali comportamenti simili adottando procedure leggermente diverse vanno riportate in questo campo, così come vanno indicati anche eventuali dettagli sulla riproducibilità del bug.
 
-Any similar behaviour which occurs by following slightly different procedures must be reported in this field, and you should also report any additional detail about the bug replicability.
-
-:::danger Bad Actual result
-The login does not work.
+:::danger Risultato effettivo scorretto
+Il login non avviene.
 :::
 
-:::tip Good Actual result
-Endless display of loading icon, with no possibility to access. Even if I try with “recover credentials” the problem still occurs every time.
+:::tip Risultato effettivo corretto
+Visualizzazione infinita dell’icona di caricamento, senza possibilità di accesso. Anche provando con “ricorda credenziali” il problema persiste ad ogni tentativo.
 :::
 
-### Additional comments
-Additional comments are not always mandatory and they are reserved to general remarks which don’t detail the steps, but help better understand the context of the problem.
+### Altri commenti
 
-:::danger Bad Additional comments
-None.
+I commenti aggiuntivi non sono obbligatori e sono riservati ad eventuali osservazioni generali che non dettagliano gli step ma aiutano a prendere contesto del problema.
+
+:::tip Commenti aggiuntivi corretti
+Il problema si verifica indipendentemente dal browser usato.
 :::
 
-:::tip Good Additional comments
-The problem occurs only on the Android version of the app.
-:::
+### Caricamento degli allegati
+Ogni bug deve presentare sempre degli allegati per facilitare la comprensione del problema,  1 screenshot e 1 video in cui vengano mostrate le azioni effettuate e il risultato ottenuto. È sempre obbligatorio caricare almeno 1 screenshot e 1 video (*). 
 
-### Upload files
-Every bug must always be uploaded with some attachments to facilitate the understanding of the problem, then either 2 screenshots or 1 screenshot and 1 video where the actions carried out and the result obtained are shown. It is always mandatory to upload at least 1 screenshot and 1 video(*).
-
-The video must be long enough to show the steps performed and the problem occurring;
-When recording the video, it is prohibited to record audio telling what you are doing;
-For more information, see the article about how to record the device screen.
+Il video deve essere sufficientemente lungo da mostrare i passi eseguiti e il problema che si verifica; Nella registrazione del video è vietato registrare l’audio raccontando ciò che si sta facendo;
 
 :::info video (*)
-Only in the TYPO case you can not attach the video, but 2 screenshots.
+Solamente nella casistica TYPO si può non allegare il video, ma 2 screenshot.
 :::
