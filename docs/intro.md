@@ -7,8 +7,6 @@ sidebar_position: 1
 
 ![img](../static/img/welcome.svg)
 
-Welcome to the UNGUESS' Support Center!
-If you have landed here it's because you have doubts about how to best carry out the campaign or simply to improve your testing skills.
-Here you will find helpful guides and tips written by the experts.
-Navigate the left index and improve your testing skills!
-Enjoy the reading!
+We welcome you to the UNGUESS Support Center, the right place to learn about the platform and complete your campaign in the best way.
+Here you find guides, tutorials, and tips: they are perfect whether you are taking your first steps or want to improve your testing skills.
+Let's browse the menu on the left and discover our content. Happy reading and happy testing!
