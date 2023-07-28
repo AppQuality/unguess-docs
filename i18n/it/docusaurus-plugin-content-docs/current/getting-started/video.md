@@ -1,9 +1,21 @@
 ---
-sidebar_position: 2
-title: Regole di compilazione dei bug
+sidebar_position: 3
+title: Realizza un video
 ---
 
-# Regole di compilazione dei bug
+# Produrre un video da allegare ad un Bug
+
+Come avrai avuto modo di leggere nelle [Regole di compilazione dei bug](rules), per quasi tutte le tipologie di segnalazioni risulta assolutamente necessario allegare un video che mostri il problema riscontrato, che è oggetto della segnalazione.
+
+ di un bug devegole da rispettare per la segnalazione dei bug (articolo) è il caricamento di almeno due allegati, a supporto dei campi testuali:
+
+– un’immagine “screenshot” con l’evidenza del Bug, sempre obbligatoria;
+– un video “screencast” con il procedimento per raggiungere il Bug, obbligatorio per i Bug di tipo Crash, Graphic, Performance, Malfunction, Security, Usability e Other.
+
+Entrambi dovranno mostrare l’intera area visibile del dispositivo (pc, smartphone, tablet, etc), e per il video i tocchi/click delle azioni svolte.
+L’audio o la narrazione (a meno di richieste specifiche nel Manuale) non è richiesto, come i ritagli per entrambi gli allegati. Il formato di salvataggio del video deve essere MP4.
+
+Per essere sicuro di aver ripreso correttamente l’area guarda i due esempi:
 
 Fai riferimento alle regole riportate in questo articolo ogni qual volta tu debba riempire i vari campi previsti nel form di segnalazione di un bug; in questo modo, i tuoi bug verranno approvati più velocemente e con meno richieste integrative, inoltre riceverai più punti esperienza.
 
