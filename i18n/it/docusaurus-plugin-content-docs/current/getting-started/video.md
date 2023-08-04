@@ -1,96 +1,34 @@
 ---
-sidebar_position: 3
-title: Realizza un video
+sidebar_position: 4
+title: Realizzare un video
 ---
 
 # Produrre un video da allegare ad un Bug
 
-Come avrai avuto modo di leggere nelle [Regole di compilazione dei bug](rules), per quasi tutte le tipologie di segnalazioni risulta assolutamente necessario allegare un video che mostri il problema riscontrato, che è oggetto della segnalazione.
+Come avrai avuto modo di leggere nelle [Regole di compilazione dei bug](rules), per quasi tutte le tipologie di segnalazioni risulta assolutamente necessario allegare:
 
- di un bug devegole da rispettare per la segnalazione dei bug (articolo) è il caricamento di almeno due allegati, a supporto dei campi testuali:
+- uno screenshot (una immagine che mostri il problema)
 
-– un’immagine “screenshot” con l’evidenza del Bug, sempre obbligatoria;
-– un video “screencast” con il procedimento per raggiungere il Bug, obbligatorio per i Bug di tipo Crash, Graphic, Performance, Malfunction, Security, Usability e Other.
+- un video (che riprenda tutte le azioni effettuate e e il problema riscontrato).
 
-Entrambi dovranno mostrare l’intera area visibile del dispositivo (pc, smartphone, tablet, etc), e per il video i tocchi/click delle azioni svolte.
-L’audio o la narrazione (a meno di richieste specifiche nel Manuale) non è richiesto, come i ritagli per entrambi gli allegati. Il formato di salvataggio del video deve essere MP4.
+Entrambi dovranno mostrare l’intera area visibile del dispositivo (pc, smartphone, tablet, etc).
 
-Per essere sicuro di aver ripreso correttamente l’area guarda i due esempi:
+Questa pagina si concentra sulla **realizzazione dei video**. Registrare il proprio schermo è un’attività molto semplice, ma è diversa se si utilizza uno **smartphone/tablet**, o un **dispositivo desktop**. L’audio o la narrazione (a meno di richieste specifiche) non è richiesto comunque in entrambi i casi.
 
-Fai riferimento alle regole riportate in questo articolo ogni qual volta tu debba riempire i vari campi previsti nel form di segnalazione di un bug; in questo modo, i tuoi bug verranno approvati più velocemente e con meno richieste integrative, inoltre riceverai più punti esperienza.
+## Creare un video da Smartphone/Tablet
 
-Ogni bug deve essere sempre scritto in modo da poter essere compreso senza visualizzarne gli allegati.
+Per gli smartphone e tablet, le ultime generazioni di dispositivi sia Android che IOS permettono la registrazione dello schermo. Guarda il video corrispondente al tuo dispositivo per vedere come attivarlo:
 
-### Titolo del bug
+- [Smartphone/tablet Android Samsung](https://drive.google.com/file/d/10DAtHEjeebF__kP_o6LzGPrFFggOO5cE/view?usp=sharing)
+- [Smartphone/tablet Android Non Samsung](https://drive.google.com/file/d/122hzBxpXkWzQO3USXw9UPUSgA4JoJmVd/view?usp=drive_link)
+- [Smartphone/Tablet Android (Metodo alternativo)](https://drive.google.com/file/d/1x4njcxwp6Ho0iynbS_WdwCSt107dbFri/view?usp=sharing) - L'app è installabile da questo [link](https://play.google.com/store/apps/details?id=com.hecorat.screenrecorder.free&hl=it&gl=US&pli=1)
+- [Smartphone/Tablet IOS](https://drive.google.com/file/d/1VqPoAamjxtJ6v-87L1q1anNhuG6qMcb_/view?usp=sharing)
 
-Il titolo deve presentare la sezione o il processo in cui il problema si verifica inscritto tra parentesi quadre (non il nome o il numero dello use case), seguito da un riassunto breve e comprensibile del problema, in modo che possa essere compreso e distinto chiaramente.
+## Creare un video da PC Windows o MAC
 
-:::danger Titolo scorretto
+In linea generale per un dispositivo desktop Pc o Mac sarà necessario scaricare e installare un programma che dovrà essere configurato per riprendere l’intera area del desktop.
+Sul web ci sono diverse soluzioni gratuite e facili da usare, queste che seguono sono quelle che consigliamo.
 
-[USE CASE 1] – L’accesso non funziona
-
-[Home] – Errore
-
-:::
-
-:::tip Titolo corretto
-
-[Login] – Impossibile effettuare l’accesso usando credenziali
-
-:::
-
-### Descrizione step-by-step
-La descrizione del bug deve presentare un elenco puntato di azioni da effettuare per poter replicare il percorso che ha portato al problema. Ogni singolo passaggio deve essere riportato in un passo (preceduto dal suo numero) in modo chiaro, identificando univocamente il comportamento dell’utente sul prodotto (ad es. tap, click, indietro sullo smartphone o sul browser) e le scelte effettuate o i tasti cliccati (i nomi delle sezioni o dei bottoni devono essere scritti tra virgolette). Inoltre, eventuali precondizioni vanno esplicitate sempre nei primi punti.
-Attenzione: l’ultimo step non deve essere la descrizione del Bug. Questa va descritta nel campo “Actual result”.
-
-:::danger Descrizione scorretta
-1. Aprire l’App;
-2. Click su Login;
-- Caricamento.
-:::
-
-:::tip Descrizione corretta
-1. Aprire l’app appena installata e atterrare sulla pagina di login;
-2. Compilare i campi con una credenziale corretta;
-3. Cliccare sul bottone “Effettua l’accesso”.
-:::
-
-### Risultato previsto
-Il risultato atteso deve descrivere esclusivamente quello che sarebbe dovuto essere il comportamento del prodotto digitale, che invece non si è realizzato, riferendosi sempre al contesto in cui il bug si è verificato.
-
-:::danger Risultato atteso scorretto
-Login.
-:::
-
-:::tip Risultato atteso corretto
-L’utente dovrebbe visualizzare l’area riservata agli utenti che hanno effettuato il login.
-:::
-
-
-### Risultato ottenuto
-Il risultato effettivo descrive in modo completo il comportamento del prodotto in riferimento al bug che si è verificato all’interno del suo contesto di riproducibilità. Eventuali comportamenti simili adottando procedure leggermente diverse vanno riportate in questo campo, così come vanno indicati anche eventuali dettagli sulla riproducibilità del bug.
-
-:::danger Risultato effettivo scorretto
-Il login non avviene.
-:::
-
-:::tip Risultato effettivo corretto
-Visualizzazione infinita dell’icona di caricamento, senza possibilità di accesso. Anche provando con “ricorda credenziali” il problema persiste ad ogni tentativo.
-:::
-
-### Altri commenti
-
-I commenti aggiuntivi non sono obbligatori e sono riservati ad eventuali osservazioni generali che non dettagliano gli step ma aiutano a prendere contesto del problema.
-
-:::tip Commenti aggiuntivi corretti
-Il problema si verifica indipendentemente dal browser usato.
-:::
-
-### Caricamento degli allegati
-Ogni bug deve presentare sempre degli allegati per facilitare la comprensione del problema,  1 screenshot e 1 video in cui vengano mostrate le azioni effettuate e il risultato ottenuto. È sempre obbligatorio caricare almeno 1 screenshot e 1 video (*). 
-
-Il video deve essere sufficientemente lungo da mostrare i passi eseguiti e il problema che si verifica; Nella registrazione del video è vietato registrare l’audio raccontando ciò che si sta facendo;
-
-:::info video (*)
-Solamente nella casistica TYPO si può non allegare il video, ma 2 screenshot.
-:::
+- [Installazione di Screencast-o-matic](https://screencast-o-matic.com/)
+Il più facile da utilizzare! Per iniziare la registrazione di un nuovo video, cliccando sull’icona del programma si apre la pagina del sito e bisogna cliccare sul pulsante “Launch free recorder”. Nella versione gratuita la durata massima è di 15 minuti. 
+- [Installazione di OBS Studio](https://obsproject.com/)

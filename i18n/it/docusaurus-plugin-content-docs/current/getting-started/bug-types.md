@@ -1,152 +1,87 @@
 ---
-sidebar_position: 3
-title: Bug types
+sidebar_position: 2
+title: Introduzione ai Bug
 ---
-## Recognize types, their severity and replicability
+## Riconoscere e trovare i bug
 
-:::info
-It's important to understand how to recognize different types of bugs, their severity and replicability
+Il termine bug (in italiano “baco”) identifica un errore che altera il corretto funzionamento di un software producendo, ad esempio, un risultato inatteso o errato. Una delle caratteristiche fondamentali di un buon Tryber è la capacità di individuare bug e trovare un modo per riprodurli. Per fare ciò, prima di tutto, è opportuno saper riconoscere i vari **tipi di bug** e le relative **gravità**, essendo questi due parametri profondamente connessi tra loro.
+
+### Tipologie di Bug
+#### Malfunzionamenti (Malfunction)
+È un tipo di bug che riguarda il man­cato o errato funzionamento di una feature presente all’interno del pro­dotto. Nel caso in cui il funziona­mento sia generalmente corretto ma diverso dalle aspettative dell’utente allora il bug rientra nella categoria USABILITY.
+
+>**Esempio:** pulsanti e/o collegamenti non funzionanti, impossibilità di inserire un prodotto nel carrello, error 404, problemi legati a mes­saggi di errore con testo non contestualizzato ri­spetto al reale problema presente (errore gene­rico). 
+
+**Allegati obbligatori:** 
+:::info Allegati obbligatori
+Almeno 1 Screenshot e almeno 1 Video che mostrino il problema
 :::
 
-The term *bug* identifies an error that alters the correct functioning of a piece of software by producing, for example, an unexpected or incorrect result. One of the fundamental characteristics of a good reporter is the ability to detect bugs and find a way to reproduce them. In order to do this, first of all, it is necessary to know how to recognize the various **types** of bugs and their relative **severity**, as these two parameters are deeply connected.
+#### Crash (Crash)
 
-Let us begin by distinguishing the various **types of bugs**, which will be described according to the terminology for the Bug Form used to open bug reports.
+Problemi che comportano la chiusura o la non re­sponsività del prodotto. L’utente è dunque costretto a riavviarlo per continuare ad utilizzarlo.
+> **Esempio:** applicazione che si blocca completamente o si chiude improvvisamente, carica­menti infiniti.
 
-### Bug Type
-#### Malfunction
-This is a type of bug that concerns the failure or incorrect functioning of a feature present inside the product.
-
-> **Example:** dead buttons and/or links, inability to insert a product in the shopping cart, error 404, problems related to error messages with text not contextualized to the problem (generic error).
-
-If the operation is generally correct but differs from the user’s expectations, then the bug falls into the USABILITY category.
-
-:::info Mandatory attachments
-Screenshot & Video.
+:::info Allegati obbligatori
+Almeno 1 Screenshot e almeno 1 Video che mostrino il problema
 :::
 
-#### Crash
+#### Usabilità (Usability)
 
-It causes the product to be closed or unresponsive. The user is forced to restart to continue using it.
+Problemi legati all’utilizzo del pro­dotto che rendono all’utente difficile svolgere una certa azione o compito a causa di percorsi lunghi, complessi, non ideali o poco intuitivi. Si includono i casi in cui il funziona­mento differisca completamente dalle aspettative dell’utente.
 
-> **Example:** application freezing completely or closing abruptly, endless loading.
+Rien­trano anche l’assenza di controlli sull’inseri­mento di dati nei campi ed i problemi legati a mes­saggi di errore con testo non contestualizzato ri­spetto al reale problema presente (errore gene­rico).
 
-:::info Mandatory attachments
-Screenshot & Video.
+>**Esempio:** troppi clic prima di poter concludere un acquisto; procedimento troppo lungo e complesso per cambiare l’immagine di profilo.
+
+:::info Allegati obbligatori
+Almeno 1 Screenshot e almeno 1 Video che mostrino il problema
 :::
 
-#### Usability
+#### Sicurezza (Security)
 
-Problems related to the use of the product that make it difficult for the user to perform a certain action or task due to long, complex, non-ideal or unintuitive paths. This includes cases where the operation differs completely from the user’s expectations.
+Problemi unicamente legati alla sicurezza e al mantenimento della riservatezza dei dati salvati. Si includono sezioni con password in chiaro, mancata scadenza dei login o anche libera possibilità di ottenimento di dati di altri utenti tramite SQL injection o attacchi XSS.
 
-It also included the absence of checks on the insertion of data into fields and problems related to error messages with text that is out of context with the actual problem present (generic error).
+>**Esempio:** è possibile modificare le credenziali di un altro utente senza esserne autorizzati
 
-> **Example:** too many clicks before a purchase can be concluded; too long and complex process to change the profile picture.
-
-:::info Mandatory attachments
-Screenshot & Video.
+:::info Allegati obbligatori
+Almeno 1 Screenshot e almeno 1 Video che mostrino il problema
 :::
 
-#### Security
+#### Grafico (Graphic)
 
-Problems only related to security and maintaining the confidentiality of saved data.
+Problemi legati ad una visualizzazione non ottimale del layout grafico, di componenti fotografiche, di immagini, icone, popup e alert.
 
-This includes sections with passwords in clear text, failure to expire logins, or even the free possibility to get data from other users via SQL injection or XSS attacks.
+>**Esempio:** fotografia non definita, immagine parzialmente o totalmente non visibile, layout grafico compromesso, popup decentrati o non in linea con la spaziatura e centratura, etc.
 
-> **Example:** Inability to delete credentials from an account.
-
-:::info Mandatory attachments
-Screenshot & Video.
+:::info Allegati obbligatori
+Almeno 1 Screenshot e almeno 1 Video che mostrino il problema
 :::
 
-#### Graphic
+#### Problemi di scrittura/traduzione (Typo)
 
-Problems related to a compromised display of the graphic layout, photographic components, images, icons, popups and alerts.
+Problemi legati ad errori grammaticali, ortografici, semantici, lessicali o sintattici, traduzioni errate o incomplete, frasi incomplete (non graficamente tagliate) o prive di senso, codice in vista o non comprensibile.
 
-> **Example:** undefined photograph, partially or totally invisible image, compromised graphic layout, off-centre or misaligned popups, etc.
+>**Esempio:** mancanza di spazi tra le parole, accenti sbagliati.
 
-:::info Mandatory attachments
-Screenshot & Video.
+:::info Allegati obbligatori
+Almeno 1 Screenshot, è bene allegare anche un video se è difficile individuare il percorso per raggiungere il testo coinvolto
 :::
 
-#### Typo
+#### Problemi di Lentezza / Caricamento (Performance)
 
-Problems related to grammatical, spelling, semantic, lexical or syntax errors, incorrect or incomplete translations, incomplete (not graphically cut) or meaningless sentences, code in sight or not understandable.
+Problemi strettamente legati alla velocità di caricamento dei contenuti o nel completamento dei processi del prodotto digitale (lag, rallentamenti, ritardi).
 
-> **Example:** lack of spaces between words, wrong accents.
+>**Esempio:** tempi di caricamento molto lenti, presenza di ritardi nei video non riconducibili alla velocità di connessione dell’utente. Se questo caricamento eccessivo non si conclude mai (loop), allora il problema è riconducibile ad un CRASH.
 
-:::info Mandatory attachments
-Screenshot
+:::info Allegati obbligatori
+Almeno 1 Screenshot e almeno 1 Video che mostrino il problema
 :::
 
-#### Performance
+#### Altro (Other)
 
-Problems strictly related to the speed of loading content or completing processes  in the digital product (lag, slowdowns, delays).
+Tutti i problemi che non appartengono alle categorie finora descritte.
 
-> **Example:** very slow loading times, presence of delays in videos that cannot be attributed to the speed of the user’s connection.
-
-If this excessive loading never ends (loop), then the problem is due to a CRASH.
-
-:::info Mandatory attachments
-Screenshot & Video.
+:::info Allegati obbligatori
+Almeno 1 Screenshot e almeno 1 Video che mostrino il problema
 :::
-
-#### Other
-
-All the problems that don’t belong to the categories described so far. 
-
-:::info Mandatory attachments
-Screenshot & Video.
-:::
-
-It’s important that during the video recording or capturing the screenshot, the entire all visible area (browser, app, etc.) is captured and not a clipping.
-
-Only in this way is it possible to have all the background information in addition to the bug itself, without the reporter being asked for it in the Bug Form (e.g. web address, browser, etc.)
-
- 
-
-### Severity
-Another key parameter to consider is the bug’s severity, which is an estimation of problem’s impact on product use, taking into account the context in which it occurs (primary or secondary sections in relation to the core business of the digital product) and the conditions under which it was found in relation to average use.
-
-#### Low
-Problems with a minimal impact when using the product, in the face of which the user is always able to continue using the digital product without being particularly upset. 
-:::tip
-These are often USABILITY, TYPO or GRAPHIC bugs.
-:::
-
-#### Medium
-
-Problem which have a low impact on product use, in front of which the user can complete the process 
-
-Problems that have a limited impact on the use of the product, in the face of which the user manages to complete the process and is only partially disturbed.
-
-:::tip
-These can be any kind of bug.
-:::
-
-#### High
-
-Problems that have a significant impact the use of the product and they happen mostly in the main sections, in the face of which the user may not be able to continue using the digital product in the way he/she wants (or as intended) and/or may be upset and limited.
-
-:::tip
-These are usually MALFUNCTION, CRASH, PERFORMANCE or SECURITY bugs.
-:::
-
-#### Critical
-
-Problems preventing the completion of the strictly main actions, often resulting in a system crash. The user cannot in any way to continue using the digital product as he wishes, being severely disturbed and restricted.
-
-:::tip
-These are mainly MALFUNCTION or CRASH bugs.
-:::
-
-### Replicability
-One time only
-The bug occurred only once and it couldn’t be reproduced further on.
-
-#### Sometimes
-
-Given the same conditions and processes, the bug occurs sporadically/unpredictably, but can always be reproduced by making several attempts.
-
-#### Always
-
-The bug occurs, all the conditions and processes are the same, with each replication attempt. To be such, the bug must be successfully reproduced at least 3/3 times.
