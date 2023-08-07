@@ -1,12 +1,12 @@
 ---
 sidebar_position: 2
-title: Introduzione ai Bug
+title: Tipologie di bug
 ---
 ## Riconoscere e trovare i bug
 
 Il termine bug (in italiano “baco”) identifica un errore che altera il corretto funzionamento di un software producendo, ad esempio, un risultato inatteso o errato. Una delle caratteristiche fondamentali di un buon Tryber è la capacità di individuare bug e trovare un modo per riprodurli. Per fare ciò, prima di tutto, è opportuno saper riconoscere i vari **tipi di bug** e le relative **gravità**, essendo questi due parametri profondamente connessi tra loro.
 
-### Tipologie di Bug
+### Tipi di Bug
 #### Malfunzionamenti (Malfunction)
 È un tipo di bug che riguarda il man­cato o errato funzionamento di una feature presente all’interno del pro­dotto. Nel caso in cui il funziona­mento sia generalmente corretto ma diverso dalle aspettative dell’utente allora il bug rientra nella categoria USABILITY.
 
