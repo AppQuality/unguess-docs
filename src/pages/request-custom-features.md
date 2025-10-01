@@ -1,3 +1,9 @@
+---
+title: request custom features
+description: request custom features process
+hide_table_of_contents: true
+---
+
 # Request Custom Features
 
 When you add custom features to your testing plan, a Customer Success Manager will contact you within 2-7 days to create a personalized quote. This request is not binding—it simply opens a conversation to find the best solution for your needs.
