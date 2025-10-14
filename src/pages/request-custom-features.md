@@ -7,7 +7,7 @@ description: request custom features process
 
 # Request Custom Features
 
-When you add custom features to your testing plan, a Customer Success Manager will contact you within 2-7 days to create a personalized quote. This request is not binding—it simply opens a conversation to find the best solution for your needs.
+When you add custom features to your testing plan, a Customer Success Manager will contact you within 1-3 days to create a personalized quote. This request is not binding—it simply opens a conversation to find the best solution for your needs.
 
 
 ## What Are Custom Features
@@ -38,9 +38,9 @@ Our team evaluates:
 - Project scope and complexity  
 - Technical feasibility  
 - Resource allocation  
-- Timeline requirements
+- Target & Timeline requirements
 
-**Timeline:** 2-7 days
+**Timeline:** 1-3 days
 
 ### 3\. Our team contacts you
 
@@ -59,7 +59,6 @@ After your conversation, you'll receive a personalized quote that includes:
 
 - Updated pricing  
 - Start date  
-- Detailed service breakdown  
 - Next steps
 
 :::tip You are not obligated to accept this quote.
@@ -124,7 +123,7 @@ Yes, at any time with no obligation.
 Your CSM can adjust the scope to fit your budget while meeting your core needs.
 
 ### How long does the process take? 
-From submission to quote: typically 2-7 days.
+From submission to quote: typically 1-3 days.
 
 ### Can I change requirements after submitting?
 Before project start, your CSM can help you adjust requirements. The quote updates accordingly.
